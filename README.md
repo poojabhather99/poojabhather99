@@ -24,4 +24,6 @@ I turn messy operational data into reliable analytical datasets and KPIs for pro
 
 **[aimouse](https://github.com/poojabhather99/aimouse)**: computer-vision hand tracking to control the mouse.
 
-More projects (agentic AI and data engineering) are on the way.
+**[agent-eval-lab](https://github.com/poojabhather99/agent-eval-lab)**: tool-using LLM agent (ReAct loop) with an evaluation harness measuring success rate, tool-selection accuracy, steps and invalid-JSON rate. Baseline and real-model (Groq) backends, 14 tests, CI.
+
+**[cdc-quality-pipeline](https://github.com/poojabhather99/cdc-quality-pipeline)**: CDC ingestion demo with validation, quarantine, duplicate and out-of-order handling, silver and gold KPI layers (DuckDB), and a reconciliation check proving no event is lost. 20 tests, CI.
