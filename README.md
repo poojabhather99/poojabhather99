@@ -31,3 +31,7 @@ I turn messy operational data into reliable analytical datasets and KPIs for pro
 **[mcp-kpi-server](https://github.com/poojabhather99/mcp-kpi-server)**: Model Context Protocol server giving any LLM client safe, read-only SQL and KPI tools over DuckDB, with a SQL guard and 19 tests.
 
 **[data-quality-agent](https://github.com/poojabhather99/data-quality-agent)**: agent that profiles a table and proposes validation rules as JSON specs that are schema-checked before they run, never executable code. 20 tests, CI.
+
+**[rag-eval-harness](https://github.com/poojabhather99/rag-eval-harness)**: offline harness that measures a RAG pipeline on retrieval hit rate and MRR, answer accuracy, faithfulness to cited sources, and abstention on unanswerable questions. 12 tests, CI.
+
+**[multi-agent-workflow](https://github.com/poojabhather99/multi-agent-workflow)**: planner, researcher and critic agents with schema-validated plans, a safe calculator tool, an event trace and a retry loop that catches injected faults. 30 tests, CI.
