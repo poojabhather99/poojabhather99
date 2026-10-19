@@ -27,3 +27,7 @@ I turn messy operational data into reliable analytical datasets and KPIs for pro
 **[agent-eval-lab](https://github.com/poojabhather99/agent-eval-lab)**: tool-using LLM agent (ReAct loop) with an evaluation harness measuring success rate, tool-selection accuracy, steps and invalid-JSON rate. Baseline and real-model (Groq) backends, 14 tests, CI.
 
 **[cdc-quality-pipeline](https://github.com/poojabhather99/cdc-quality-pipeline)**: CDC ingestion demo with validation, quarantine, duplicate and out-of-order handling, silver and gold KPI layers (DuckDB), and a reconciliation check proving no event is lost. 20 tests, CI.
+
+**[mcp-kpi-server](https://github.com/poojabhather99/mcp-kpi-server)**: Model Context Protocol server giving any LLM client safe, read-only SQL and KPI tools over DuckDB, with a SQL guard and 19 tests.
+
+**[data-quality-agent](https://github.com/poojabhather99/data-quality-agent)**: agent that profiles a table and proposes validation rules as JSON specs that are schema-checked before they run, never executable code. 20 tests, CI.
