@@ -35,3 +35,7 @@ I turn messy operational data into reliable analytical datasets and KPIs for pro
 **[rag-eval-harness](https://github.com/poojabhather99/rag-eval-harness)**: offline harness that measures a RAG pipeline on retrieval hit rate and MRR, answer accuracy, faithfulness to cited sources, and abstention on unanswerable questions. 12 tests, CI.
 
 **[multi-agent-workflow](https://github.com/poojabhather99/multi-agent-workflow)**: planner, researcher and critic agents with schema-validated plans, a safe calculator tool, an event trace and a retry loop that catches injected faults. 30 tests, CI.
+
+**[ai-interviewer](https://github.com/poojabhather99/ai-interviewer)**: FastAPI service that runs an adaptive technical interview, with SQLite-backed sessions, resumes referenced by id instead of file path, prompt-injection mitigation, a transparent scoring rubric and reports. 11 tests, CI.
+
+**[meal-nutrition-agent](https://github.com/poojabhather99/meal-nutrition-agent)**: protein-aware weekly meal planner that learns a profile from free text, plans seasonal meals for veg, egg and non-veg diets, and sends day-ahead reminders through a bot-ready command router. 21 tests, CI.
