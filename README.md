@@ -39,3 +39,15 @@ I turn messy operational data into reliable analytical datasets and KPIs for pro
 **[ai-interviewer](https://github.com/poojabhather99/ai-interviewer)**: FastAPI service that runs an adaptive technical interview, with SQLite-backed sessions, resumes referenced by id instead of file path, prompt-injection mitigation, a transparent scoring rubric and reports. 11 tests, CI.
 
 **[meal-nutrition-agent](https://github.com/poojabhather99/meal-nutrition-agent)**: protein-aware weekly meal planner that learns a profile from free text, plans seasonal meals for veg, egg and non-veg diets, and sends day-ahead reminders through a bot-ready command router. 21 tests, CI.
+
+## Live demos
+
+These run the real project code in your browser, with no sign-up and no server:
+
+[RAG evaluation harness](https://poojabhather99.github.io/rag-eval-harness/)
+
+[Multi-agent workflow](https://poojabhather99.github.io/multi-agent-workflow/)
+
+[Data quality agent](https://poojabhather99.github.io/data-quality-agent/)
+
+[Meal planning bot](https://poojabhather99.github.io/meal-nutrition-agent/)
