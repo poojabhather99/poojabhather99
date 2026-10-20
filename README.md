@@ -24,30 +24,24 @@ I turn messy operational data into reliable analytical datasets and KPIs for pro
 
 **[aimouse](https://github.com/poojabhather99/aimouse)**: computer-vision hand tracking to control the mouse.
 
-**[agent-eval-lab](https://github.com/poojabhather99/agent-eval-lab)**: tool-using LLM agent (ReAct loop) with an evaluation harness measuring success rate, tool-selection accuracy, steps and invalid-JSON rate. Baseline and real-model (Groq) backends, 14 tests, CI.
+**[agent-eval-lab](https://github.com/poojabhather99/agent-eval-lab)**: tool-using LLM agent (ReAct loop) with an evaluation harness measuring success rate, tool-selection accuracy, steps and invalid-JSON rate. Baseline and real-model (Groq) backends, 14 tests, CI. [Live demo](https://poojabhather99.github.io/agent-eval-lab/)
 
-**[cdc-quality-pipeline](https://github.com/poojabhather99/cdc-quality-pipeline)**: CDC ingestion demo with validation, quarantine, duplicate and out-of-order handling, silver and gold KPI layers (DuckDB), and a reconciliation check proving no event is lost. 20 tests, CI.
+**[cdc-quality-pipeline](https://github.com/poojabhather99/cdc-quality-pipeline)**: CDC ingestion demo with validation, quarantine, duplicate and out-of-order handling, silver and gold KPI layers (DuckDB), and a reconciliation check proving no event is lost. 20 tests, CI. [Live demo](https://poojabhather99.github.io/cdc-quality-pipeline/)
 
-**[mcp-kpi-server](https://github.com/poojabhather99/mcp-kpi-server)**: Model Context Protocol server giving any LLM client safe, read-only SQL and KPI tools over DuckDB, with a SQL guard and 19 tests.
+**[mcp-kpi-server](https://github.com/poojabhather99/mcp-kpi-server)**: Model Context Protocol server giving any LLM client safe, read-only SQL and KPI tools over DuckDB, with a SQL guard and 19 tests. [Live demo](https://poojabhather99.github.io/mcp-kpi-server/)
 
-**[data-quality-agent](https://github.com/poojabhather99/data-quality-agent)**: agent that profiles a table and proposes validation rules as JSON specs that are schema-checked before they run, never executable code. 20 tests, CI.
+**[data-quality-agent](https://github.com/poojabhather99/data-quality-agent)**: agent that profiles a table and proposes validation rules as JSON specs that are schema-checked before they run, never executable code. 20 tests, CI. [Live demo](https://poojabhather99.github.io/data-quality-agent/)
 
-**[rag-eval-harness](https://github.com/poojabhather99/rag-eval-harness)**: offline harness that measures a RAG pipeline on retrieval hit rate and MRR, answer accuracy, faithfulness to cited sources, and abstention on unanswerable questions. 12 tests, CI.
+**[rag-eval-harness](https://github.com/poojabhather99/rag-eval-harness)**: offline harness that measures a RAG pipeline on retrieval hit rate and MRR, answer accuracy, faithfulness to cited sources, and abstention on unanswerable questions. 12 tests, CI. [Live demo](https://poojabhather99.github.io/rag-eval-harness/)
 
-**[multi-agent-workflow](https://github.com/poojabhather99/multi-agent-workflow)**: planner, researcher and critic agents with schema-validated plans, a safe calculator tool, an event trace and a retry loop that catches injected faults. 30 tests, CI.
+**[multi-agent-workflow](https://github.com/poojabhather99/multi-agent-workflow)**: planner, researcher and critic agents with schema-validated plans, a safe calculator tool, an event trace and a retry loop that catches injected faults. 31 tests, CI. [Live demo](https://poojabhather99.github.io/multi-agent-workflow/)
 
-**[ai-interviewer](https://github.com/poojabhather99/ai-interviewer)**: FastAPI service that runs an adaptive technical interview, with SQLite-backed sessions, resumes referenced by id instead of file path, prompt-injection mitigation, a transparent scoring rubric and reports. 11 tests, CI.
+**[ai-interviewer](https://github.com/poojabhather99/ai-interviewer)**: FastAPI service that runs an adaptive technical interview, with SQLite-backed sessions, resumes referenced by id instead of file path, prompt-injection mitigation, a transparent scoring rubric and reports. 11 tests, CI. [Live demo](https://poojabhather99.github.io/ai-interviewer/)
 
-**[meal-nutrition-agent](https://github.com/poojabhather99/meal-nutrition-agent)**: protein-aware weekly meal planner that learns a profile from free text, plans seasonal meals for veg, egg and non-veg diets, and sends day-ahead reminders through a bot-ready command router. 21 tests, CI.
+**[meal-nutrition-agent](https://github.com/poojabhather99/meal-nutrition-agent)**: protein-aware weekly meal planner that learns a profile from free text, plans seasonal meals for veg, egg and non-veg diets, and sends day-ahead reminders through a bot-ready command router. 21 tests, CI. [Live demo](https://poojabhather99.github.io/meal-nutrition-agent/)
 
 ## Live demos
 
-These run the real project code in your browser, with no sign-up and no server:
+Every demo below runs the real project code in your browser (Python via Pyodide), with no sign-up and no server:
 
-[RAG evaluation harness](https://poojabhather99.github.io/rag-eval-harness/)
-
-[Multi-agent workflow](https://poojabhather99.github.io/multi-agent-workflow/)
-
-[Data quality agent](https://poojabhather99.github.io/data-quality-agent/)
-
-[Meal planning bot](https://poojabhather99.github.io/meal-nutrition-agent/)
+[Agent eval lab](https://poojabhather99.github.io/agent-eval-lab/) | [CDC quality pipeline](https://poojabhather99.github.io/cdc-quality-pipeline/) | [MCP KPI server tools](https://poojabhather99.github.io/mcp-kpi-server/) | [Data quality agent](https://poojabhather99.github.io/data-quality-agent/) | [RAG evaluation harness](https://poojabhather99.github.io/rag-eval-harness/) | [Multi-agent workflow](https://poojabhather99.github.io/multi-agent-workflow/) | [AI interviewer](https://poojabhather99.github.io/ai-interviewer/) | [Meal planning bot](https://poojabhather99.github.io/meal-nutrition-agent/)
