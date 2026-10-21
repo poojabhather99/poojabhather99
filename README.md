@@ -16,6 +16,10 @@ I turn messy operational data into reliable analytical datasets and KPIs for pro
 
 **Practices:** unit testing with pytest, CI with GitHub Actions, containerised deployment
 
+## Flagship project
+
+**[insight-agent](https://github.com/poojabhather99/insight-agent)**: a deployable data analyst agent. Upload a CSV, ask in plain English, and it runs sandboxed read-only SQL (single SELECT, read-only database, no file access, time limit), draws a chart and shows every step. FastAPI backend, web UI with live step streaming, API-key auth, rate limiting, JSON logs, Prometheus metrics, SQLite run history, Docker and CI with an evaluation gate. 86 tests. Works offline and with Groq or Hugging Face models; not yet evaluated with a live model.
+
 ## Featured projects
 
 **[bot-gpt](https://github.com/poojabhather99/bot-gpt)**: conversational AI platform with general chat and document-grounded RAG over PDFs. FastAPI, Groq LLaMA 3.3, Streamlit, Docker, CI.
